@@ -29,9 +29,9 @@ if sys.argv[1:]:
     else:
         interface = '127.0.0.1'
         port = int(address)
-
+#localhost only xD
 else:
-    port = 8080
+    port = 8080 #TODO
     interface = '127.0.0.1'
 
 if sys.argv[2:]:
